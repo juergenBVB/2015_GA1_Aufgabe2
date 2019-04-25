@@ -22,7 +22,7 @@ namespace _2015_GA1_Aufgabe2
 
             testRechnung.drucken();
 
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
