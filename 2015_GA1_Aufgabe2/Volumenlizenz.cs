@@ -10,7 +10,7 @@ namespace _2015_GA1_Aufgabe2
     {
         private int anzahl;
 
-        public Volumenlizenz(int anzahl, int nummer, string bezeichnung, double preis) : base(nummer, bezeichnung, preis)
+        public Volumenlizenz(int nummer, string bezeichnung, double preis, int anzahl) : base(nummer, bezeichnung, preis)
         {
             if (anzahl < 10)
             {
